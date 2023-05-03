@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Clients = () => {
-  const [clients, setClients] = useState([
+  const [clients, _] = useState([
     {
       name: "Brad Pitt",
       seniority: "Adult",

@@ -1,13 +1,13 @@
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const SideBar = () => {
-  interface optionArray {
-    name: string;
-    icon: string;
-    link: string;
-    active: boolean;
-  }
+  // interface optionArray {
+  //   name: string;
+  //   icon: string;
+  //   link: string;
+  //   active: boolean;
+  // }
   const [options, setOptions] = useState([
     {
       name: "Calendar",
