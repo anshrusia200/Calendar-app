@@ -5,7 +5,7 @@ const Nav = () => {
       <div className="top-left">
         <Link to="">
           <img
-            src="/src/assets/logo.png"
+            src="https://res.cloudinary.com/appcloudansh/image/upload/v1683119792/logo_wbov1r.png"
             alt=""
             width={"168px"}
             height={"24px"}
@@ -20,7 +20,11 @@ const Nav = () => {
           <i className="fa fa-search"></i>
         </div>
         <div className="income">
-          <img src="/src/assets/line.png" alt="" width={"23px"} />
+          <img
+            src="https://res.cloudinary.com/appcloudansh/image/upload/v1683119791/line_hu3ros.png"
+            alt=""
+            width={"23px"}
+          />
           <div className="details-income">
             <span className="month">Apr income</span>
             <div className="value">$100.00</div>
