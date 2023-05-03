@@ -37,9 +37,11 @@ app.listen(PORT, () => {
 
 if (node_env === "production") {
   const __directory = path.resolve();
-  app.use(express.static(path.join(__directory, "/client/dist")));
+  app.use(express.static(path.join(__directory, "/calendar-app/dist")));
   app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__directory, "client", "dist", "index.html"));
+    res.sendFile(
+      path.resolve(__directory, "calendar-app", "dist", "index.html")
+    );
   });
 } else {
   app.get("/", (req, res) => {
