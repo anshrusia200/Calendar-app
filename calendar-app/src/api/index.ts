@@ -3,7 +3,7 @@ import axios from "axios";
 import { MeetingState } from "../store/slices/MeetingSlice";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://calendar-backend-y8lh.onrender.com",
 });
 
 export const getAllMeetings = async () => {
