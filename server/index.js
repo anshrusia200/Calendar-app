@@ -13,7 +13,7 @@ const node_env = "production";
  ********************/
 app.use(
   cors({
-    origin: [/localhost:\d{4}$/],
+    origin: [/netlify\.app$/, /localhost:\d{4}$/],
   })
 );
 connectDB();
